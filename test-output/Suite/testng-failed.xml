@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.LoginTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="InvalidEmail"/>
+          <include name="setup"/>
+          <include name="blankLogin"/>
+          <include name="validLogin"/>
+          <include name="resultTest"/>
+          <include name="Invalidpass"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.LoginTest -->
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.HomePageTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="searchbox"/>
+          <include name="resultTest"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.HomePageTest -->
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.RegistrationTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="InvalidRegistration"/>
+          <include name="validRegistration"/>
+          <include name="setup"/>
+          <include name="resultTest"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.RegistrationTest -->
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.Add2CartTest">
+        <methods>
+          <include name="RemoveFromCart"/>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="Add2Cart"/>
+          <include name="resultTest"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.Add2CartTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.LoginTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="InvalidEmail"/>
+          <include name="setup"/>
+          <include name="blankLogin"/>
+          <include name="validLogin"/>
+          <include name="resultTest"/>
+          <include name="Invalidpass"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.LoginTest -->
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.HomePageTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="searchbox"/>
+          <include name="resultTest"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.HomePageTest -->
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.RegistrationTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="InvalidRegistration"/>
+          <include name="validRegistration"/>
+          <include name="setup"/>
+          <include name="resultTest"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.RegistrationTest -->
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.Add2CartTest">
+        <methods>
+          <include name="RemoveFromCart"/>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="Add2Cart"/>
+          <include name="resultTest"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.Add2CartTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.LoginTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="InvalidEmail"/>
+          <include name="setup"/>
+          <include name="blankLogin"/>
+          <include name="validLogin"/>
+          <include name="resultTest"/>
+          <include name="Invalidpass"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.LoginTest -->
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.HomePageTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="searchbox"/>
+          <include name="resultTest"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.HomePageTest -->
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.RegistrationTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="InvalidRegistration"/>
+          <include name="validRegistration"/>
+          <include name="setup"/>
+          <include name="resultTest"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.RegistrationTest -->
+      <class name="com.AdityaGaur_3185083_SeleniumAssignment.test.Add2CartTest">
+        <methods>
+          <include name="RemoveFromCart"/>
+          <include name="setExtent"/>
+          <include name="waitTime"/>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="Add2Cart"/>
+          <include name="resultTest"/>
+        </methods>
+      </class> <!-- com.AdityaGaur_3185083_SeleniumAssignment.test.Add2CartTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
